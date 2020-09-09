@@ -1,0 +1,21 @@
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+canvas {
+  position: absolute;
+  background-color: black;
+  left: 50%;
+  bottom: 50%;
+  padding: 10px;
+  border-radius: 30px;
+  transform: translate(-50%, 50%) scale(1)
+
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+}
